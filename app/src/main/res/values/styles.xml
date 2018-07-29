@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="android:listDivider" >@color/colorPrimary</item>
+
+
+        <item name="colorAccent">@color/white</item>
+    </style>
+    <style name="TextAppearance44">
+        <item name="android:textColor">#FFff</item>
+
+        <item name="android:textSize">55dp</item>
+    </style>
+    <style name="NavigationViewStyle">
+        <item name="android:textSize">15sp</item> <!-- menu item text size-->
+        <item name="android:listPreferredItemHeightSmall">40dp</item><!-- menu item height-->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">#ffff</item>
+    </style>
+
+</resources>

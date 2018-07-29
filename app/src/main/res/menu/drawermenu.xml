@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group
+
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single"
+
+
+        >
+    <item android:id="@+id/home" android:title="Home" android:icon="@drawable/ic_63272"></item>
+    <item android:id="@+id/myprofile" android:title="My Profile" android:icon="@drawable/ic_482636" ></item>
+    <item android:id="@+id/events" android:title="Events" android:icon="@drawable/ic_481787"></item>
+    <item android:id="@+id/favorites" android:title="Favorites" android:icon="@drawable/ic_117877"></item>
+    <item android:id="@+id/inbox" android:title="Inbox" android:icon="@drawable/ic_53726"></item>
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+    <item android:id="@+id/contactus" android:title="Contact Us" android:icon="@drawable/ic_467570"></item>
+    <item android:id="@+id/feedback" android:title="Feed back" android:icon="@drawable/ic_716006"></item>
+    <item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/ic_126472"></item>
+
+
+    </group>
+    <item android:title="DASHBOARD" >
+
+
+    <menu>
+        <item
+
+            android:id="@+id/sch"
+            android:icon="@drawable/schoolnbety"
+            android:title="My Schools"
+
+
+            />
+        <item
+            android:id="@+id/pen"
+            android:icon="@drawable/pencil"
+            android:title="Add a School" />
+        <item
+            android:id="@+id/ask"
+            android:icon="@drawable/schoolnbety"
+            android:title="How to use Application" />
+    </menu>
+        <group android:checkableBehavior="single">
+            <item
+                android:icon="@drawable/logouttt"
+                android:id="@+id/nav_logoutt"
+                android:title="Log out"
+
+                />
+        </group>
+
+
+
+</item>
+
+</menu>
